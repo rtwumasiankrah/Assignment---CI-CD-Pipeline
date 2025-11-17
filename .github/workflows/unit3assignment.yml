@@ -31,6 +31,7 @@ jobs:
  
     - name: Build application 
       run: python setup.py sdist bdist_wheel 
-      
-      
-.
+
+git add . 
+git commit -m "Trigger CI/CD pipeline" 
+git push origin main 
